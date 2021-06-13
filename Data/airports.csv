@@ -1875,7 +1875,6 @@ rowID,Airport,City,Country,IATACode,ICAOCode,Latitude,Longitude,AltitudeFt,TimeZ
 4331,Mashhad,Mashhad,Iran,MHD,OIMM,36.234,59.643,3263,3.5,E,Asia/Tehran
 6151,Nukus Airport,Nukus,Uzbekistan,NCU,UTNN,42.4884,59.6233,246,5,U,Asia/Samarkand
 2142,Birjand,Birjand,Iran,XBJ,OIMB,32.898056,59.266111,4952,3.5,E,Asia/Tehran
-5786,La M𬥠Airport,La M𬥉France,LTT,LFTZ,43.2054,6.482,59,1,E,Europe/Paris,
 2193,Masirah,Masirah,Oman,MSH,OOMA,20.675434,58.890467,64,4,U,Asia/Muscat
 2969,Magnitogorsk,Magnetiogorsk,Russia,MQF,USCM,53.393131,58.755661,1431,6,N,Asia/Yekaterinburg
 6164,Orsk Airport,Orsk,Russia,OSW,UWOR,51.0725,58.5956,909,6,N,Asia/Yekaterinburg
@@ -2208,7 +2207,6 @@ rowID,Airport,City,Country,IATACode,ICAOCode,Latitude,Longitude,AltitudeFt,TimeZ
 7664,Kineshma,Kineshma,Russia,KIE,\N,57.45000001,42.15000001,420,4,N,Europe/Moscow
 2963,Shpakovskoye,Stavropol,Russia,STW,URMT,45.109165,42.112778,1486,4,N,Europe/Moscow
 9259,Dolo Ado,Dolo Ado,Ethiopia,,\N,4.175858,42.034083,630,3,U,Africa/Addis_Ababa
-5589,Svartnes Airport,Vardퟤ󻱲way,VAW,ENSS,70.355392,31.044889,42,1,E,Europe/Oslo,
 8057,Sasovo,Sasovo,Russia,,\N,54.3539,41.9739,365,4,N,Europe/Moscow
 1112,Dire Dawa Intl,Dire Dawa,Ethiopia,DIR,HADR,9.6247,41.854203,3829,3,U,Africa/Addis_Ababa
 1731,Siirt,Siirt,Turkey,,LTCL,37.978886,41.840436,2001,2,E,Europe/Istanbul
@@ -2502,7 +2500,6 @@ rowID,Airport,City,Country,IATACode,ICAOCode,Latitude,Longitude,AltitudeFt,TimeZ
 5707,Shinyanga Airport,Shinyanga,Tanzania,SHY,HTSY,-3.667,33.417,3800,3,U,Africa/Dar_es_Salaam
 8378,Nicosia International Airport,Nicosia,Cyprus,NIC,\N,35.15111,33.27222,0,2,E,Asia/Nicosia
 6104,Lozuvatka International Airport,Krivoy Rog,Ukraine,KWG,UKDR,48.0433,33.21,408,2,E,Europe/Kiev
-5838,Alonso Valderrama Airport,Chitr銐anama,CTD,MPCE,7.98784,-80.4097,33,-5,U,America/Panama,
 1682,Esenboga,Ankara,Turkey,ESB,LTAC,40.128082,32.995083,3125,2,E,Europe/Istanbul
 1199,Akrotiri,Akrotiri,Cyprus,AKT,LCRA,34.590416,32.987861,76,0,E,Europe/London
 1183,Mwanza,Mwanza,Tanzania,MWZ,HTMW,-2.444486,32.932667,3763,3,U,Africa/Dar_es_Salaam
@@ -2653,7 +2650,6 @@ rowID,Airport,City,Country,IATACode,ICAOCode,Latitude,Longitude,AltitudeFt,TimeZ
 8702,Alldays Airport,Alldays,South Africa,ADY,FAAL,-22.678889,29.055278,2676,2,U,Africa/Johannesburg
 9271,Kadikoy Ispark Heliport,Istanbul,Turkey,,\N,40.989305,29.018833,100,2,E,Europe/Istanbul
 9395,Bursa Airport,Bursa,Turkey,BTZ,LTBE,40.2332993,29.0091991,772,2,U,Europe/Istanbul
-5840,Jaqu顁irport,Jaqu銐anama,JQE,MPJE,7.51778,-78.1572,29,-5,U,America/Panama,
 4350,Berlevag,Berlevag,Norway,BVG,ENBV,70.866667,29,43,1,E,Europe/Oslo
 9270,Sisli Belediyesi Evlendirme Dairesi Heliport,Istanbul,Turkey,,\N,41.0410805,28.9923138,100,2,E,Europe/Istanbul
 455,Savonlinna,Savonlinna,Finland,SVL,EFSA,61.943064,28.945136,311,2,E,Europe/Helsinki
@@ -2746,8 +2742,6 @@ rowID,Airport,City,Country,IATACode,ICAOCode,Latitude,Longitude,AltitudeFt,TimeZ
 5802,Balikesir Korfez Airport,Balikesir Korfez,Turkey,EDO,LTFD,39.5546,27.0138,50,2,E,Europe/Istanbul
 1708,Cigli,Izmir,Turkey,IGL,LTBL,38.513022,27.010053,16,2,E,Europe/Istanbul
 8465,Gogld,Island of Gogland,Russia,,\N,60.011662,27.008236,10,3,U,\N
-9115,Gogland Helicopter Landing,Gogland Island,Russia,,\N,60.011662,27.008236,0,4,U,\N
-5587,Svolv粠Helle Airport,Svolv粉Norway,SVJ,ENSH,68.2433,14.6692,27,1,E,Europe/Oslo,
 1732,Kaklic,Izmir,Turkey,,LTFA,38.517608,26.977406,13,2,E,Europe/Istanbul
 449,Pudasjarvi,Pudasjarvi,Finland,,EFPU,65.402222,26.946944,397,2,E,Europe/Helsinki
 4192,Kalymnos Island,Kalymnos,Greece,JKL,LGKY,36.963333,26.940556,771,2,E,Europe/Athens
@@ -2824,7 +2818,6 @@ rowID,Airport,City,Country,IATACode,ICAOCode,Latitude,Longitude,AltitudeFt,TimeZ
 1031,Kisangani Simisini,Kisangani,Congo (Kinshasa),FKI,FZIA,0.5175,25.155014,1289,2,U,Africa/Lubumbashi
 4195,Paros,Paros,Greece,PAS,LGPA,37.010278,25.127778,121,2,E,Europe/Athens
 420,Helsinki Malmi,Helsinki,Finland,HEM,EFHF,60.254558,25.042828,57,2,E,Europe/Helsinki
-5839,Enrique Adolfo Jimenez Airport,Col󮉐anama,ONX,MPEJ,9.35664,-79.8674,25,-5,U,America/Panama,
 8948,Paluknys,Paluknys,Lithuania,,EYVP,54.483056,24.989722,0,2,E,Europe/Vilnius
 653,Banak,Lakselv,Norway,LKL,ENNA,70.068814,24.973489,25,1,E,Europe/Oslo
 7883,Helsinki Cruise Port,Helsinki,Finland,,HELC,60.163056,24.969167,6,2,E,Europe/Helsinki
@@ -3316,7 +3309,6 @@ rowID,Airport,City,Country,IATACode,ICAOCode,Latitude,Longitude,AltitudeFt,TimeZ
 688,Jonkoping,Joenkoeping,Sweden,JKG,ESGJ,57.757594,14.068731,741,1,E,Europe/Stockholm
 1608,Wels,Wels,Austria,,LOLW,48.183304,14.040861,1043,1,E,Europe/Vienna
 6519,Niederoeblarn,Niederoeblarn,Austria,,LOGO,47.478,14.008,2142,1,E,Europe/Vienna
-5955,Bahia Pi񡠁irport,Bahia Pi񡉐anama,BFQ,,7.583,-78.2,14,-5,U,America/Panama,
 692,Skovde,Skovde,Sweden,KVB,ESGR,58.4564,13.972672,324,1,E,Europe/Stockholm
 8617,Usti Nad Labem Airport,Usti Nad Labem,Czech Republic,,LKUL,50.698889,13.970833,765,1,E,Europe/Prague
 1203,Pula,Pula,Croatia,PUY,LDPL,44.893533,13.922192,274,1,E,Europe/Zagreb
@@ -3474,7 +3466,6 @@ rowID,Airport,City,Country,IATACode,ICAOCode,Latitude,Longitude,AltitudeFt,TimeZ
 1566,Viterbo,Viterbo,Italy,,LIRV,42.430183,12.064156,990,1,E,Europe/Rome
 324,Halle Oppin,Halle,Germany,,EDAQ,51.552,12.052667,347,1,E,Europe/Berlin
 8006,Landshut Ellermuehle,Landshut,Germany,,EDML,48.51333333,12.035,1200,1,E,Europe/Berlin
-6053,Reyes Murillo Airport,Nuqu튃olombia,NQU,SKNQ,5.7,-77.28,12,-5,U,America/Bogota,
 1511,Pantelleria,Pantelleria,Italy,PNL,LICG,36.816519,11.968864,635,1,E,Europe/Rome
 8106,Koethen Airport,Koethen,Germany,,EDCK,51.7211,11.9528,305,1,E,Europe/Berlin
 783,Erding,Erding,Germany,,ETSE,48.322333,11.948667,1515,1,E,Europe/Berlin
@@ -3828,7 +3819,6 @@ rowID,Airport,City,Country,IATACode,ICAOCode,Latitude,Longitude,AltitudeFt,TimeZ
 9176,Osnabrueck Hbf,Osnabrueck,Germany,,\N,52.272778,8.061111,207,1,E,Europe/Berlin
 405,Wilhelmshaven Mariensiel,Wilhelmshaven,Germany,WVN,EDWI,53.504833,8.053333,16,1,E,Europe/Berlin
 282,Manu Dayak,Agadez,Niger,AJY,DRZA,16.965997,8.000114,1657,1,N,Africa/Niamey
-6037,Maca顁irport,Maca銂razil,MEA,SBME,-22.343,-41.766,8,-3,S,America/Sao_Paulo,
 8087,Osnabrueck-Atterheide Airport,Osnabrueck,Germany,,EDWO,52.2864,7.96972,285,1,E,Europe/Berlin
 7031,Winterlandeplatz,Maennlichen,Switzerland,,\N,46.610833,7.9425,7297,1,E,Europe/Zurich
 8672,Offenburg,Offenburg,Germany,,\N,48.4711,7.9411,535,1,E,Europe/Berlin
@@ -3932,7 +3922,6 @@ rowID,Airport,City,Country,IATACode,ICAOCode,Latitude,Longitude,AltitudeFt,TimeZ
 7800,Essen HBF,Essen,Germany,ESX,ESSE,51.451389,7.0138,1000,1,E,Europe/Berlin
 9388,Fontaine Airport,Belfort,France,BOR,LFSQ,47.6556015,7.0108299,3663,1,E,Europe/Paris
 8124,Leverkusen Airport,Leverkusen,Germany,,EDKL,51.0153,7.00556,157,1,E,Europe/Berlin
-5584,R𳴠Airport,R𳴉Norway,RET,ENRS,67.5278,12.1033,7,1,E,Europe/Oslo,
 8656,Wiescheid,Langenfeld,Germany,,\N,51.141663,6.987305,1000,1,E,Europe/Berlin
 4035,Cologne Railway,Cologne,Germany,QKL,\N,50.9425,6.958056,100,1,E,Europe/Berlin
 7802,Koln HBF,Koln,Germany,KOX,KOLN,50.9425,6.958056,1000,1,E,Europe/Berlin
@@ -4329,8 +4318,6 @@ rowID,Airport,City,Country,IATACode,ICAOCode,Latitude,Longitude,AltitudeFt,TimeZ
 8569,North Sea,Buchan Alpha,United Kingdom,,\N,57.9039,0.0319,0,0,U,\N
 8573,North Sea,Buchan Alpha,United Kingdom,,BUCA,57.9039,0.0319,0,0,U,\N
 2033,South Pole Station,Stephen's Island,Antarctica,,NZSP,-89.999997,0,9300,12,U,Antarctica/South_Pole
-5476,Apartad󠁩rport,Apartad󉃯lombia,APO,,7.033,-77.2,0,-5,U,America/Bogota,
-5477,Tarapacᡁirport,Tarapacኃolombia,TCD,,-2.867,-69.733,0,-5,U,America/Bogota,
 4303,Les Ailerons,Enghien-moisselles,France,,LFFE,0,0,302,0,E,\N
 6473,Vilamendhoo,Vilamendhoo,Maldives,,\N,0,0,0,5,U,\N
 7537,Mainz Finthen,Mainz,Germany,QFZ,\N,0,0,300,1,E,\N
