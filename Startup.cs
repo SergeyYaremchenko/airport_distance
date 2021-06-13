@@ -23,7 +23,7 @@ namespace AirportDistance {
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services) {
-            services.Configure<Settings>(Configuration.GetSection(nameof(Settings)));
+            services.Configure<ServiceConfiguration>(Configuration.GetSection(nameof(ServiceConfiguration)));
 
             Configuration.ValidateSettings();
 

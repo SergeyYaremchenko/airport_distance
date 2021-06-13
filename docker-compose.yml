@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+
+    airport_distance:
+        image: ${DOCKER_REGISTRY-}airport_distance
+        build:
+            context: .
+            dockerfile: Dockerfile
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+        ports:
+            - "8888:80"

@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics.CodeAnalysis;
 using AirportDistance.Shared.Models;
 using AirportDistance.Shared.Validators;
 using Microsoft.Extensions.Configuration;
@@ -12,13 +13,16 @@ namespace AirportDistance.Infrastructure.Extensions.Configuration {
         /// <param name="configuration">Configuration</param>
         /// <exception cref="ArgumentNullException">If configuration is empty</exception>
         public static void ValidateSettings(this IConfiguration configuration) {
-            var config = configuration.GetSection(nameof(Settings)).Get<Settings>();
+            if (configuration is null) {
+                throw new ArgumentNullException(nameof(configuration));
+            }
+            var config = configuration.GetSection(nameof(ServiceConfiguration)).Get<ServiceConfiguration>();
 
             if (config is null) {
-                throw new ArgumentNullException(nameof(configuration), $"Can't start: configuration section {nameof(Settings)} is not set or empty");
+                throw new ArgumentNullException(nameof(configuration), $"Can't start: configuration section {nameof(ServiceConfiguration)} is not set or empty");
             }
 
-            var configValidator = new SettingsValidator();
+            var configValidator = new ServiceConfigurationValidator();
 
             configValidator.ValidateAndThrow(config);
         }

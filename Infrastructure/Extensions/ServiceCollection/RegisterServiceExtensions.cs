@@ -12,20 +12,18 @@ namespace AirportDistance.Infrastructure.Extensions.ServiceCollection {
         /// </summary>
         /// <param name="serviceCollection">ServiceCollection</param>
         public static void RegisterServices(this IServiceCollection serviceCollection) {
-
             serviceCollection.AddSingleton(provider => {
-
-                var settings = provider.GetRequiredService<IOptions<Settings>>();
+                var settings = provider.GetRequiredService<IOptions<ServiceConfiguration>>();
 
                 return DistanceLoader.GetRecords(settings.Value);
             });
 
-            serviceCollection.AddTransient<IValidator<Distance.Request>, Distance.RequestValidator>(provider => {
+            serviceCollection.AddTransient<IValidator<DistanceRequest>, DistanceRequestValidator>(provider => {
                 var airports = provider.GetRequiredService<IReadOnlyDictionary<string, AirportRecord>>();
-                
-                return new Distance.RequestValidator(airports);
+
+                return new DistanceRequestValidator(airports);
             });
-            serviceCollection.AddScoped<Distance>();
+            serviceCollection.AddScoped<DistanceHandler>();
         }
     }
 }

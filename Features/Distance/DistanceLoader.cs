@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Globalization;
@@ -8,8 +9,12 @@ using CsvHelper;
 
 namespace AirportDistance.Features.Distance {
     public static class DistanceLoader {
-        public static IReadOnlyDictionary<string, AirportRecord> GetRecords(Settings settings) {
-            using var reader = new StreamReader(settings.AirportsCsvFilePath!);
+        public static IReadOnlyDictionary<string, AirportRecord> GetRecords(ServiceConfiguration serviceConfiguration) {
+            if (serviceConfiguration is null) {
+                throw new ArgumentNullException(nameof(serviceConfiguration));
+            }
+            
+            using var reader = new StreamReader(serviceConfiguration.AirportsCsvFilePath!);
             using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
 
             csv.Context.RegisterClassMap<AirportRecordMap>();

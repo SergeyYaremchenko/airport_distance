@@ -1,3 +1,4 @@
+using System;
 using System.Net;
 using System.Net.Mime;
 using Microsoft.AspNetCore.Mvc;
@@ -8,10 +9,10 @@ namespace AirportDistance.Features.Distance {
     [Route("[controller]")]
     public class DistanceController: ControllerBase {
         private readonly ILogger<DistanceController> _logger;
-        private readonly Distance _distanceRequestHandler;
-        public DistanceController(ILogger<DistanceController> logger, Distance distanceRequestHandler) {
+        private readonly DistanceHandler _distanceHandlerRequestHandler;
+        public DistanceController(ILogger<DistanceController> logger, DistanceHandler distanceHandlerRequestHandler) {
             _logger = logger;
-            _distanceRequestHandler = distanceRequestHandler;
+            _distanceHandlerRequestHandler = distanceHandlerRequestHandler;
         }
         
         /// <summary>
@@ -26,9 +27,13 @@ namespace AirportDistance.Features.Distance {
         [ProducesResponseType(typeof(ProblemDetails), (int) HttpStatusCode.InternalServerError)]
         [Consumes(MediaTypeNames.Application.Json)]
         [Produces(MediaTypeNames.Application.Json)]
-        public double GetDistance([FromQuery] Distance.Request request) {
+        public double GetDistance([FromQuery] DistanceRequest? request) {
+
+            if (request is null) {
+                throw new ArgumentNullException(nameof(request));
+            }
             _logger.LogInformation("Requesting distance from {Src} to {Dst}", request.From, request.To);
-            return _distanceRequestHandler.GetDistanceInMiles(request);
+            return _distanceHandlerRequestHandler.GetDistanceInMiles(request);
         }
     }
 }

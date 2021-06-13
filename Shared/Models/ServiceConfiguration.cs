@@ -2,7 +2,7 @@ namespace AirportDistance.Shared.Models {
     /// <summary>
     /// Application settings
     /// </summary>
-    public class Settings {
+    public class ServiceConfiguration {
         /// <summary>
         /// Path to CSV file with airports
         /// </summary>
