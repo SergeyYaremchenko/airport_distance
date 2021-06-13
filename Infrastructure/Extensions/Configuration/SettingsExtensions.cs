@@ -1,5 +1,4 @@
 using System;
-using System.Diagnostics.CodeAnalysis;
 using AirportDistance.Shared.Models;
 using AirportDistance.Shared.Validators;
 using Microsoft.Extensions.Configuration;
